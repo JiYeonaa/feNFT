@@ -1279,7 +1279,7 @@ body {
 }
 @media (max-width: 769px) {
   .footer__nav {
-    padding-left: 70px;
+    padding-left: 50px;
   }
   .footer__menu {
     display: none;
@@ -1298,9 +1298,6 @@ body {
   }
 }
 @media (max-width: 677px) {
-  .footer__nav {
-    padding-left: 50px;
-  }
   .footer__pop {
     -webkit-column-gap: 70px;
        -moz-column-gap: 70px;
@@ -1308,9 +1305,6 @@ body {
   }
 }
 @media (max-width: 577px) {
-  .footer__nav {
-    padding-left: 50px;
-  }
   .footer__pop {
     -webkit-column-gap: 150px;
        -moz-column-gap: 150px;
