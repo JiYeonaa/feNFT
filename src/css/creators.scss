@@ -1,0 +1,216 @@
+.creators{
+  padding-top: 146px;
+  &__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  &__block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  &__card{
+    width: calc(25% - 25px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 13px 40px 13px 17px;
+    column-gap: 14px;
+  }
+  &__bio{
+    align-items: center;
+  }
+  &__name{
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  &__eth{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #C9C27A;
+    align-items: center;
+  }
+  &__btns{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1201px) {
+  .creators__block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .creators__card{
+    width: calc(25% - 15px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 13px 40px 13px 17px;
+    column-gap: 14px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .creators__block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .creators__card{
+    width: calc(25% - 20px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 23px 10px 14px;
+    column-gap: 12px;
+  }
+  .creators__name{
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  .creators__eth{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #C9C27A;
+    align-items: center;
+  }
+}
+
+@media (max-width: 887px) {
+  .creators__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .creators__text{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  .creators__block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .creators__card{
+    width: calc(25% - 15px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 3px 10px 14px;
+    column-gap: 12px;
+  }
+  .creators__name{
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+  .creators__eth{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+    color: #C9C27A;
+    align-items: center;
+  }
+}
+
+@media (max-width: 769px) {
+  .creators{
+    padding: 10px;
+  }
+  .creators__card{
+    width: calc(33.33333% - 15px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 3px 10px 14px;
+    column-gap: 12px;
+  }
+  .creators__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .creators__text{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  .creators__btn{
+    padding: 16px 40px;
+  }
+}
+
+@media (max-width: 577px) {
+  .creators{
+    padding: 10px;
+  }
+  .creators__card{
+    width: calc(50% - 15px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 3px 10px 14px;
+    column-gap: 15px;
+  }
+  .creators__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .creators__text{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  .creators__btn{
+    padding: 16px 40px;
+  }
+}
+
+
+

@@ -1,0 +1,111 @@
+.art{
+  padding-bottom: 70px;
+  &__title{
+    font-family: 'Zen Dots', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 887px) {
+  .art__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .art__text{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+}
+
+@media (max-width: 769px) {
+  .art__card{
+    width: calc(33.33333% - 15px);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+    padding: 10px 3px 10px 14px;
+    column-gap: 12px;
+  }
+  .art__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .art__text{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  .art__btn{
+    padding: 16px 40px;
+  }
+}
+
+@media (max-width: 677px) {
+  .art__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .art__text{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+}
+
+@media (max-width: 577px) {
+  .art__title{
+    font-family: 'Zen Dots',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .art__text{
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #BDBFD1;
+    padding: 16px 0 67px;
+  }
+  .art__btn{
+    padding: 13px 36px;
+  }
+}

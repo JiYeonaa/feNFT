@@ -1,0 +1,85 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #23283B70;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  display: none;
+  &__close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  &__popup{
+    max-width: 400px;
+    width: 100%;
+    background: #020B12;
+    display: flex;
+    box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+    border-radius: 20px;
+    position: relative;
+  }
+  &__form{
+    padding: 50px 80px;
+  }
+  &__title{
+    font-size: 32px;
+    color: #FFFFFF;
+    margin: 26px;
+    text-align: center;
+  }
+  &__label{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-bottom: 16px;
+  }
+  &__field{
+    width: 100%;
+    border: .5px solid #CAB0B3;
+    border-radius: 40px;
+    padding: 10px 20px;
+    background: transparent;
+    color: #9093B1;
+    &::placeholder{
+      font-weight: 400;
+      font-size: 13px;
+      color: #BDBFD1;
+    }
+  }
+  &__checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    background: transparent;
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 12px;
+    color: #BDBFD1;
+    &-link{
+      font-weight: 400;
+      font-size: 12px;
+      color: #BDBFD190;
+    }
+  }
+  &__btns{
+    display: flex;
+    justify-content: center;
+  }
+  &__btn{
+    padding: 14px 40px;
+    background: linear-gradient(118.73deg, #CAB0B3 0.05%, #C3181F 38.91%, #0B0E17 99.88%, #09101D 100%);
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+}

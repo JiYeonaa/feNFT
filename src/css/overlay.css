@@ -1,0 +1,118 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(35, 40, 59, 0.5215686275);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 20px;
+  display: none;
+}
+.overlay__close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.overlay__popup {
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+          box-shadow: 0 10px 40px rgba(73, 95, 211, 0.22);
+  border-radius: 20px;
+  position: relative;
+}
+.overlay__form {
+  padding: 50px 80px;
+}
+.overlay__title {
+  font-size: 32px;
+  color: #22343D;
+  margin: 26px;
+}
+.overlay__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 16px;
+}
+.overlay__field {
+  width: 100%;
+  border: 1px solid #23283B;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+.overlay__field::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #22343D;
+}
+.overlay__field::-moz-placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #22343D;
+}
+.overlay__field:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #22343D;
+}
+.overlay__field::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #22343D;
+}
+.overlay__field::placeholder {
+  font-weight: 400;
+  font-size: 13px;
+  color: #22343D;
+}
+.overlay__checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 8px;
+     -moz-column-gap: 8px;
+          column-gap: 8px;
+}
+.overlay__desc {
+  font-weight: 400;
+  font-size: 12px;
+  color: #22343D;
+}
+.overlay__desc-link {
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(35, 40, 59, 0.5647058824);
+}
+.overlay__btn {
+  width: 70%;
+  padding: 16px 0;
+  background: #02897A;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+}

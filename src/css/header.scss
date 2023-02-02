@@ -1,0 +1,121 @@
+.header{
+  padding: 53px 0;
+  &__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__burger{
+    width: 30px;
+    height: 30px;
+    background: #020B12;
+    display: none;
+    align-items: center;
+    &-line{
+      width: 100%;
+      height: 3px;
+      background: #FFFFFF;
+      position: relative;
+      &::before{
+      content: '';
+        width: 30px;
+        height: 3px;
+        background: #FFFFFF;
+        position: absolute;
+        top: -9px;
+        left: 0;
+      }
+      &::after{
+        content: '';
+        width: 30px;
+        height: 3px;
+        background: #FFFFFF;
+        position: absolute;
+        top: 9px;
+        left: 0;
+      }
+    }
+    &.active{
+      .header__burger-line{
+        width: 0;
+        &::before{
+          transform: rotate(45deg);
+          top: 0;
+        }
+        &::after{
+          transform: rotate(-45deg);
+          top: 0;
+        }
+      }
+    }
+  }
+  &__menu{
+    display: flex;
+    column-gap: 72px;
+    align-items: center;
+  }
+  &__list{
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    &:hover{
+      color: #ffffff80;
+      transition: .5s;
+    }
+  }
+}
+
+//1440 - 1321 - 1440
+//1320 - 1201 - 1320
+//1200 - 1025 - 1200
+//1024 - 993 - 1024
+//992 - 887
+//886 - 769
+//768 - 677
+//676 - 577
+//576 - 501
+//500 - 426
+//425 - 376
+//375 -
+
+
+@media (max-width: 769px) {
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    background: #020B12;
+    padding: 40px 0;
+  }
+  .header__burger{
+    display: flex;
+  }
+  .header__menu{
+    display: flex;
+    position: fixed;
+    top: -600px;
+    right: 0;
+    background: #020B12;
+    max-width: 330px;
+    width: 100%;
+    height: 400px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0 5px 20px rgba(28, 28, 28, 0.1);
+    flex-direction: column;
+    row-gap: 32px;
+    justify-content: center;
+    .header__list{
+      flex-direction: column;
+      row-gap: 32px;
+    }
+    &.active{
+      top: 30px;
+    }
+  }
+  .header__btn{
+    padding: 14px 35px;
+  }
+}
+
